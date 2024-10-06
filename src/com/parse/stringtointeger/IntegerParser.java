@@ -34,6 +34,9 @@ public class IntegerParser {
         try {
             int result = parseInt(str);
             System.out.println("Parsed integer: " + result);
+
+            result = parseInt("75675");
+            System.out.println("Parsed integer: " + result);
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
